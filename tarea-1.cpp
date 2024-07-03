@@ -4,7 +4,6 @@ Patrimonio De La Humanidad"
 */
 
 #include <iostream>
-
 using namespace std;
 
 void convertirAMayusculasIniciales(char cadena[]) {
