@@ -37,10 +37,11 @@ if(numero[i] < menor){
 	c_men++;
 	}
 }
-cout << endl;
-cout << "El numero mayor es: " << mayor << endl;
-cout << "El numero mayor se repite: " << c_m << endl;
-cout <<"El numero menor es: " << menor << endl;
-cout <<"El numero menor se repite: " <<c_men << endl;
+	cout << endl;
+	cout << "El numero mayor es: " << mayor << endl;
+	cout << "El numero mayor se repite: " << c_m << endl;
+	cout <<"El numero menor es: " << menor << endl;
+	cout <<"El numero menor se repite: " <<c_men << endl;
+
 return 0;
 }
