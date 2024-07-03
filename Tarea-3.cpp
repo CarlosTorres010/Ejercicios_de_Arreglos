@@ -25,6 +25,7 @@ int main() {
 	cout << "Ingrese la letra a buscar: "; cin >> letra;
 	int ocurrencias = contarOcurrencias(cadena, letra);
 	cout << "La letra '" << letra << "' aparece " << ocurrencias << " veces en la cadena." << endl;
+	
 	return 0;
 }
 
