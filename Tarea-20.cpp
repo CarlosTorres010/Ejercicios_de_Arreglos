@@ -16,8 +16,7 @@ Excelente Más del 75% del promedio mensual
 using namespace std;
 
 int main() {
-    string mesesArray[] = {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", 
-                           "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"};
+    string mesesArray[] = {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"};
     vector<string> meses(mesesArray, mesesArray + sizeof(mesesArray) / sizeof(string));
     vector<double> ventas(12);
     double sumaVentas = 0.0, promedioVentas = 0.0;
@@ -44,7 +43,7 @@ int main() {
         }
     }
 
-    cout << "Valor de la venta mensual promedio: " << promedioVentas << endl;
+    cout << "Este es el valor de la venta mensual del promedio: " << promedioVentas << endl;
     cout << "Porcentaje de meses con nivel de ventas Minimo: " << (conteoMinimo / 12.0) * 100 << "%" << endl;
     cout << "Porcentaje de meses con nivel de ventas Regular: " << (conteoRegular / 12.0) * 100 << "%" << endl;
     cout << "Porcentaje de meses con nivel de ventas Excelente: " << (conteoExcelente / 12.0) * 100 << "%" << endl;
