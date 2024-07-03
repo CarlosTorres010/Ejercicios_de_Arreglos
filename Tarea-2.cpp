@@ -32,5 +32,6 @@ int main() {
     char texto[MAX_LONGITUD];
 	cout << "Ingrese un texto: "; cin.getline(texto, MAX_LONGITUD);
 	cout << "\nPalabras separadas:\n"; ecoPalabras(texto);
+	
 	return 0;
 }
