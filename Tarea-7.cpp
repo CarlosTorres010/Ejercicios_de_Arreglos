@@ -27,6 +27,5 @@ int main(){
 	for(int i=0; i<n; i++){
 	    cout<<"Elemento: "<<numeros2[i]<<endl;
 	}
-	
 	return 0; 
 }
