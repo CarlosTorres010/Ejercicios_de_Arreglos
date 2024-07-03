@@ -27,6 +27,7 @@ int main() {
     }
 	cout << "\nLa suma de elementos positivos es: " << sumaPositivos << endl;
     cout << "La suma de elementos negativos es: " << sumaNegativos << endl;
+	
 	return 0;
 }
 
