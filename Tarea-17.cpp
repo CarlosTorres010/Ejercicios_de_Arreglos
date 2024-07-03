@@ -24,6 +24,5 @@ int main() {
     } else {
         cout << "El apellido '" << apellido << "' No pertenece a '" << nombreCompleto << "'." << endl;
     }
-
-    return 0;
+	return 0;
 }
